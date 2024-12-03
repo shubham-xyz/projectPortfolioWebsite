@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e0e5ec;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Neumorphism Effect */
+.neumorphism {
+    background: #e0e5ec;
+    border-radius: 15px;
+    box-shadow: 9px 9px 16px #c9ced6, -9px -9px 16px #ffffff;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #e0e5ec;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #0077b6;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about-profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px #c9ced6, -5px -5px 10px #ffffff;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    padding: 20px;
+    text-align: left;
+    box-shadow: 5px 5px 10px #c9ced6, -5px -5px 10px #ffffff;
+    border-radius: 15px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+}
+
+.project-card span {
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #e0e5ec;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
